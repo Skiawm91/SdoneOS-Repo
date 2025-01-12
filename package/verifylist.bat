@@ -1,4 +1,4 @@
-set vldate=250112
+set vldate=250112v1
 :: Updated at 2025/1/12 ::
 if exist %root%\system\packages\com.skholdev.test echo if "%%command%%" == "test" (call packages\com.skholdev.test\test.bat %%prefix%%) >> %root%\etc\packages.bat & echo echo test >> packages\list.bat
 if exist %root%\system\packages\com.skholdev.sakosp echo if "%%command%%" == "sakosp" (call packages\com.skholdev.sakosp\app.bat %%prefix%%) >> %root%\etc\packages.bat & echo echo sakosp >> packages\list.bat
